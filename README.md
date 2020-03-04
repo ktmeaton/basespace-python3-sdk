@@ -129,3 +129,13 @@ See License.txt in the basespace-python-sdk directory for details on licensing a
 
 KNOWN BUGS
 =========================================
+
+
+SYNCING WITH ORIGINAL REPO
+=========================================
+```
+git remote add upstream https://github.com/basespace/basespace-python-sdk.git
+git fetch upstream develop
+git checkout master
+git merge upstream/develop
+```
